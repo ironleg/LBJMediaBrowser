@@ -17,7 +17,7 @@ let package = Package(
       .upToNextMajor(from: "4.2.0")
     ),
     .package(
-      url: "https://github.com/Lebron1992/LBJImagePreviewer",
+      url: "https://github.com/ironleg/LBJImagePreviewer.git",
       branch: "main"
     )
   ],

@@ -16,9 +16,7 @@ let package = Package(
       url: "https://github.com/Alamofire/AlamofireImage.git",from: "4.2.0")
     ),
     .package(
-      url: "https://github.com/ironleg/LBJImagePreviewer.git",
-      branch: "main"
-    )
+      url: "https://github.com/ironleg/LBJImagePreviewer.git",from: "0.0.1")
   ],
   targets: [
     .target(

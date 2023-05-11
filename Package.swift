@@ -13,8 +13,7 @@ let package = Package(
   ],
   dependencies: [
     .package(
-      url: "https://github.com/Alamofire/AlamofireImage.git",
-      .upToNextMajor(from: "4.2.0")
+      url: "https://github.com/Alamofire/AlamofireImage.git",from: "4.2.0")
     ),
     .package(
       url: "https://github.com/ironleg/LBJImagePreviewer.git",
